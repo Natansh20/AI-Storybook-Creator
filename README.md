@@ -13,12 +13,12 @@ Create Storybook
 * Outputs an illustrated storybook combining the generated story and visuals.
 
 ### Detailed Pipeline (Including Rationales and Alternatives)
-1. * Overall Stack: Stable Diffusion, OpenAI GPT, Gradio
+* Overall Stack: Stable Diffusion, OpenAI GPT, Gradio
 
-* Stable Diffusion 3 Medium: Generates high-quality illustrations from text.
-* GPT-4o mini: Provides contextual and creative story generation.
-* Gradio: Enables a no-code frontend for seamless interaction.
+  * Stable Diffusion 3 Medium: Generates high-quality illustrations from text.
+  * GPT-4o mini: Provides contextual and creative story generation.
+  * Gradio: Enables a no-code frontend for seamless interaction.
 
-2. * Text Generation: GPT-4o mini is lightweight and perfect for generating short, structured stories.
+* Text Generation: GPT-4o mini is lightweight and perfect for generating short, structured stories.
 * Image Generation: Stable Diffusion is robust for producing detailed and contextually relevant illustrations.
 * Frontend: Gradio simplifies the user interface for non-technical users.
